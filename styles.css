@@ -71,11 +71,77 @@ a:hover {
     color: var(--teal);
 }
 
-/* MOBILE NAV */
+/* MOBILE PROFILE HEADER */
 
-.mobile-nav {
-    border-bottom: 1px solid #e5e5e5;
+.mobile-profile {
+    padding: 1.75rem 1.5rem 0.75rem;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.mobile-profile h1 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+    color: var(--text);
+}
+
+.mobile-profile .headshot {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto 1rem;
+}
+
+.mobile-profile .position {
+    text-align: center;
+}
+
+.mobile-profile .sidebar-website-links {
+    align-items: center;
+}
+
+.mobile-profile .sidebar-website-links a {
+    text-decoration: underline;
+    text-decoration-color: rgba(26,58,92,0.4);
+}
+
+.mobile-profile .social-icons {
+    justify-content: center;
+}
+
+.mobile-profile hr {
+    width: 100%;
+    border-color: #cccccc;
+    margin: 0.75rem 0;
+}
+
+/* MOBILE FLAT NAV */
+
+.mobile-flat-nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.1rem 0.5rem;
+    padding: 0.6rem 1rem;
+    border-top: 1px solid var(--border);
+    border-bottom: 2px solid #c0c8d4;
     background-color: #ffffff;
+    margin-bottom: 0;
+}
+
+.mobile-flat-nav a {
+    color: var(--text);
+    font-weight: 700;
+    font-size: 0.95rem;
+    padding: 0.25rem 0.5rem;
+}
+
+.mobile-flat-nav a:hover {
+    color: var(--teal);
+    text-decoration: none;
 }
 
 
@@ -328,6 +394,14 @@ details.abstract .abstract-body {
     padding-left: 0.75rem;
 }
 
+
+/* MOBILE RESPONSIVE */
+
+@media (max-width: 767.98px) {
+    .page-body {
+        padding: 1.25rem 1.25rem;
+    }
+}
 
 /* TEACHING LIST*/
 
