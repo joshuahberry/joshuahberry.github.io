@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Joshua Berry</title>
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+              rel="stylesheet"
+              integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+              crossorigin="anonymous">
+
+        <!-- Bootstrap Icons -->
+        <link rel="stylesheet"
+              href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+                crossorigin="anonymous"></script>
+
+        <link href="styles.css" rel="stylesheet">
+
+    </head>
+    <body>
+
+        <!-- Mobile Nav: small screens only -->
+        <nav class="navbar navbar-expand-md d-md-none mobile-nav">
+            <div class="container-fluid">
+                <span class="navbar-brand">Joshua Berry</span>
+                <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#mobileLinks">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="mobileLinks">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#research">Research</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#teaching">Teaching</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#datasets">Datasets</a></li>
+                            <li class="nav-item"><a class="nav-link" href="joshuaberry_cv.pdf">C.V.</a></li>
+                        </ul>
+                    </div>
+            </div>
+        </nav>
+
+        <!-- Page Body: sidebar + content column -->
+        <div class="page-body">
+
+            <!-- Sidebar -->
+            <aside class="sidebar d-none d-md-block">
+
+                <!-- Name -->
+                <h1>Joshua Berry</h1>
+
+                <!-- Profile photo -->
+                <img src="headshot.jpeg" alt="Joshua Berry" class="headshot" style="margin-top: 0.75rem;">
+
+                <!-- Position -->
+                <p class="position">
+                    PhD Student<br>
+                    Department of Politics &amp; International Relations<br>
+                    University of Oxford<br>
+                    Nuffield College<br>
+                    <a href="mailto:joshua.berry@nuffield.ox.ac.uk">joshua.berry@nuffield.ox.ac.uk</a>
+                </p>
+
+                <!-- Website links -->
+                <div class="sidebar-website-links">
+                    <a href="https://www.politics.ox.ac.uk/person/joshua-berry" target="_blank">Department Website</a>
+                    <a href="https://www.nuffield.ox.ac.uk/people/profiles/joshua-berry/" target="_blank">Nuffield College Website</a>
+                </div>
+
+                <hr>
+
+                <!-- Social icons -->
+                <div class="social-icons mt-1">
+                    <a href="https://github.com/jberry3" title="GitHub">
+                        <i class="bi bi-github"></i>
+                    </a>
+                    <a href="https://x.com/_j_berry_" title="X">
+                        <i class="bi bi-twitter-x"></i>
+                    </a>
+                    <a href="https://bsky.app/profile/joshua-berry.bsky.social" title="Bluesky" class="bsky-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 568 501" width="18" height="18" fill="currentColor">
+                            <path d="M123.121 33.664C188.241 82.553 258.281 181.68 284 234.873c25.719-53.193 95.759-152.32 160.879-201.209C491.866-1.611 568-28.906 568 57.947c0 17.346-9.945 145.713-15.778 166.555-20.275 72.453-94.155 90.933-159.875 79.748C507.222 323.8 536.444 388.56 473.922 453.32c-119.946 122.979-172.352-30.842-185.522-70.315-2.678-7.884-3.93-11.572-3.9-8.453.03 3.12-1.222 6.808-3.9 8.453C267.43 422.478 214.024 576.299 94.078 453.32 31.556 388.56 60.778 323.8 175.653 304.25c-65.72 11.185-139.6-7.295-159.875-79.748C9.945 203.66 0 75.293 0 57.947 0-28.906 76.134-1.611 123.121 33.664Z"/>
+                        </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/joshua-berry/" title="LinkedIn">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                </div>
+
+            </aside>
+
+            <!-- Content column: top nav + main content -->
+            <div class="content-col">
+
+                <!-- Top Nav: desktop only -->
+                <nav class="topnav d-none d-md-flex">
+                    <a href="#about">About</a>
+                    <a href="#education">Education</a>
+                    <a href="#research">Research</a>
+                    <a href="#teaching">Teaching</a>
+                    <a href="#datasets">Datasets</a>
+                    <a href="joshuaberry_cv.pdf">C.V.</a>
+                </nav>
+
+                <!-- Main Content -->
+                <main class="main-content">
+
+                    <!-- About -->
+                    <section id="about">
+                        <h3>About</h3>
+                        <p>
+                            I am a PhD (DPhil) student in the Department of Politics and International Relations at the University of Oxford. 
+                            My research studies judicial behavior and political economy, focusing on how judges’ professional backgrounds shape the way they reason about law and regulation. 
+                        </p>
+
+                        <p>
+                            I examine whether prior legal careers—such as corporate law, prosecution, or public defense—causally influence how judges interpret cases involving crime, government regulation, and business interests. 
+                            Using comparative data from the United States, the United Kingdom, and the Court of Justice of the European Union, I combine causal inference with computational analysis of judicial texts to study how professional experience shapes legal reasoning.
+                        </p>
+
+                        <p>
+                            My doctoral studies are funded by the Clarendon Scholarship and Nuffield College. I previously completed my my master's at the University of Oxford and undergraduate at Harvard College with a degree in Government and a secondary field in Economics. 
+                            Before beginning my PhD, I worked as a management consultant at Boston Consulting Group, where I worked on strategy projects for technology, financial services, and public sector organizations.
+                        </p>
+
+                        <h3>Research Interests</h3>
+                        <p class="research-interests">Judicial Politics · Comparative Political Economy · Computational Social Science & Legal Studies </p>
+                    </section>
+
+                    <!-- Education -->
+                    <section id="education">
+                        <h3>Education</h3>
+                        <p>
+                            <strong>University of Oxford</strong><br>
+                            PhD (DPhil) in Politics | in progress
+                        </p>
+                        <p>
+                            <strong>University of Oxford</strong><br>
+                            MSc in Politics Research | 2024
+                        </p>
+                        <p>
+                            <strong>Harvard College</strong><br>
+                            A.B. in Government | 2021
+                        </p>
+                    </section>
+
+                    <!-- Research -->
+                    <section id="research">
+                        <h3>Research</h3>
+                        <ol>
+
+                            <li>
+                                <span class="pub-title">Berry, Joshua. Workplace Socialization and Judicial Behavior: How Professional Experience Shapes Judicial Decision-Making and Reasoning.</span>
+                                Dissertation chapter.
+                                <details class="abstract">
+                                    <summary>[Description]</summary>
+                                    <div class="abstract-body">
+                                        This paper introduces a theory of workplace socialization explaining how judges' prior professional environments influence the information, norms,
+                                        and reasoning styles they bring to interpreting and applying legal rules.
+                                    </div>
+                                </details>
+                            </li>
+
+                            <li>
+                                <span class="pub-title">Berry, Joshua. Professional Background and Criminal Law Reasoning in U.S. Courts.</span>
+                                Dissertation chapter.
+                                <details class="abstract">
+                                    <summary>[Description]</summary>
+                                    <div class="abstract-body">
+                                        Using court dockets and computational text analysis of judicial opinions, this paper examines how prosecutors and defense attorneys
+                                        bring different reasoning styles to criminal law cases.
+                                    </div>
+                                </details>
+                            </li>
+
+                            <li>
+                                <span class="pub-title">Berry, Joshua. Bureaucrats and Judges: Professional Background and Administrative Law in the US, UK, and EU.</span>
+                                Dissertation chapter.
+                                <details class="abstract">
+                                    <summary>[Description]</summary>
+                                    <div class="abstract-body">
+                                        This paper studies how judges with public- and private-sector legal careers reason about administrative law disputes,
+                                        focusing on how professional experience shapes interpretations of agency authority and regulatory discretion across jurisdictions.
+                                    </div>
+                                </details>
+                            </li>
+
+                            <li>
+                                <span class="pub-title">Berry, Joshua. Elite Cues and the Durability of Free Speech Attitudes.</span>
+                                Working paper; revising for journal submission.
+                                <details class="abstract">
+                                    <summary>[Description]</summary>
+                                    <div class="abstract-body">
+                                        Using a survey experiment, this paper shows that elite messaging has limited effects on partisan attitudes toward speech regulation,
+                                        suggesting that disagreements over content moderation reflect deeper ideological commitments rather than short-term cue-taking.
+                                    </div>
+                                </details>
+                            </li>
+
+                        </ol>
+                    </section>
+
+                    <!-- Teaching -->
+                    <section id="teaching">
+                        <h3>Teaching</h3>
+
+                        <ul>
+
+                            <li>
+                                <strong>Prelims. Political Analysis (Q-Step 1).</strong>
+                                <details class="abstract">
+                                    <summary>[Course Description]</summary>
+                                    <div class="abstract-body">
+                                        Introductory statistics and quantitative methods for first-year Philosophy, Politics and Economics (PPE) and
+                                        History and Politics (HP) undergraduates. Topics include research design, causal inference, and applied data analysis in R.
+                                        Teaching delivered in lecture format.
+                                    </div>
+                                </details>
+                            </li>
+
+                            <li>
+                                <strong>205. Government and Politics of the United States.</strong>
+                                <details class="abstract">
+                                    <summary>[Course Description]</summary>
+                                    <div class="abstract-body">
+                                        American political institutions, electoral behavior, Congress, the presidency,
+                                        the federal government, interest groups, courts, and constitutional law for second and third-year PPE and HP
+                                        undergraduates. Teaching delivered in seminar tutorial format.
+                                    </div>
+                                </details>
+                            </li>
+
+                            <li>
+                                <strong>220. Political Sociology.</strong>
+                                <details class="abstract">
+                                    <summary>[Course Description]</summary>
+                                    <div class="abstract-body">
+                                        Covering the social basis of political behavior for second-year PPE and HP undergraduates. Topics include
+                                        social capital, social attitudes, social movements, nationalism, and civil wars.
+                                        Teaching delivered in seminar tutorial format.
+                                    </div>
+                                </details>
+                            </li>
+
+                            <li>
+                                <strong>Revisions. Political Sociology.</strong>
+                                <details class="abstract">
+                                    <summary>[Course Description]</summary>
+                                    <div class="abstract-body">
+                                        Revision tutorials for final-year PPE and PH students in Jesus College and St. Peter's College preparing for finalist examinations.
+                                    </div>
+                                </details>
+                            </li>
+
+                        </ul>
+                    </section>
+
+                    <!-- Datasets -->
+                    <section id="datasets">
+                        <h3>Datasets</h3>
+
+                        <ul class="dataset-list">
+
+                            <li>
+                                <span class="pub-title">Judicial Professional Background Dataset (US, UK, CJEU).</span>
+                                In progress.
+                                <details class="abstract">
+                                    <summary>[Description]</summary>
+                                    <div class="abstract-body">
+                                        Original dataset linking judicial biographies to regulatory cases, court dockets, and opinion texts.
+                                    </div>
+                                </details>
+                            </li>
+
+                        </ul>
+                    </section>
+
+                </main>
+            </div><!-- /.content-col -->
+        </div><!-- /.page-body -->
+
+        <script src="script.js"></script>
+    </body>
+</html>
